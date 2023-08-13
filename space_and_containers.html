@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space and Containers Lesson</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- # Margin -->
+    <!-- Margin is a property in CSS that adds space between an element and its surrounding elements. -->
+    <!-- m: means margin all around -->
+    <!-- {
+        m-10 = 1rem
+        1rem = 16px
+    } -->
+    <h1 class="m-10">Margin all around!</h1>
+    <h1 class="mx-10">Margin X-axis horizantaly left and right!</h1>
+    <h1 class="my-10">Margin Y-axis Verticaly top and bottom!</h1>
+    <h1 class="mt-10">Margin top!</h1>
+    <h1 class="mb-10">Margin bottom!</h1>
+    <h1 class="ml-10">Margin left!</h1>
+    <h1 class="mr-10">Margin right!</h1>
+
+    <!-- # Padding -->
+    <!-- Padding is a property in CSS that adds space between the content of an element and its border.
+         The padding property can be used to add space on all sides of an element, or on just one side. -->
+
+    <div class="bg-green-500 p-10 my-10">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, vero.
+    </div>
+    <!-- Note: padding is same as the above margin rules, only (m) char can replace (p) -->
+
+    <!-- #  Space Between -->
+    <!-- These three containers not have any space, so we use space.  -->
+    <div class="flex space-x-2">
+      <div class="bg-red-100">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+        illum.
+      </div>
+      <div class="bg-red-100">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+        illum.
+      </div>
+      <div class="bg-red-100">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+        illum.
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typography in Tailwind Css</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            tilt: ["Tilt Prism", "cursive"],
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- @ Typography  -->
+    <!-- The typography classes in Tailwind CSS are used to control the appearance of text on a web page.
+        These classes include classes for setting the font family, font size, font weight, line height, letter spacing, and text alignment. -->
+
+    <!-- # Font Size -->
+    <p class="text-sm bg-yellow-100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <p class="text-base bg-green-100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <p class="text-lg bg-blue-100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <p class="text-xl bg-indigo-700">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <p class="text-2xl bg-slate-100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <p class="text-7xl bg-gray-100">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, harum.
+    </p>
+    <!-- until: text-9xl -->
+
+    <!-- # Font Family -->
+    <div class="my-10">
+      <p class="font-sans">Font family called font-sans!</p>
+      <p class="font-serif">Font family called font-serif!</p>
+      <p class="font-mono">Font family called font-mono!</p>
+      <!-- If you want a custom font-family -->
+      <!-- go google fonts, then select your font-family -->
+      <!-- See the above link and script code... -->
+      <p class="font-tilt">Custom Font family</p>
+    </div>
+
+    <!-- # Font weight -->
+    <div class="my-10">
+      <p class="font-light">Font weight light!</p>
+      <p class="font-bold">Font weight bold!</p>
+      <p class="font-medium">Font weight learning!</p>
+      <p class="font-extrabold">Font weight learning!</p>
+      <p class="font-semibold">Font weight learning!</p>
+    </div>
+
+    <!-- # Text alignment -->
+    <div class="my-10">
+      <p class="text-left">Lorem ipsum dolor sit amet.</p>
+      <p class="text-center">Lorem ipsum dolor sit amet.</p>
+      <p class="text-right">Lorem ipsum dolor sit amet.</p>
+    </div>
+  </body>
+</html>

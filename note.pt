@@ -1,0 +1,15 @@
+
+# Tailwind Css (Mobile First)
+
+
+-> Tailwind CSS is a utility-first CSS framework that allows you to quickly and
+easily build custom styles for your website or web application. It is based on 
+the principle of "atomic design," which means that your styles are built up from 
+small, reusable components. This makes it easy to maintain your styles and to make
+changes as needed.
+Tailwind CSS comes with a large number of pre-defined utility classes that you 
+can use to style your elements. These classes cover a wide range of properties, 
+including colors, borders, shadows, and more. You can also use Tailwind CSS to 
+create your own custom classes.
+To use Tailwind CSS, you simply need to include the Tailwind CSS stylesheet in 
+your project. You can then use the Tailwind CSS classes in your HTML markup
